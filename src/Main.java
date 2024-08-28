@@ -1,5 +1,6 @@
 import java.time.LocalDate;
 
+import br.com.cadubcastro.desafioPOO.dominio.Conteudo;
 import br.com.cadubcastro.desafioPOO.dominio.Curso;
 import br.com.cadubcastro.desafioPOO.dominio.Mentoria;
 
@@ -30,6 +31,10 @@ public class Main {
 		mentoria.setData(LocalDate.now());
 		
 		System.out.println(mentoria);
+		
+		//*******************************************************//
+		
+		Conteudo conteudo = new Curso();
 	}
 
 }
