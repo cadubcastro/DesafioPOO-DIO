@@ -77,8 +77,4 @@ public class Bootcamp {
 				&& Objects.equals(dataInicial, other.dataInicial) && Objects.equals(descricao, other.descricao)
 				&& Objects.equals(devsInscritos, other.devsInscritos) && Objects.equals(nome, other.nome);
 	}
-	
-	
-	
-
 }
